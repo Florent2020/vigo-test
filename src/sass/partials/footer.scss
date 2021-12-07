@@ -1,0 +1,14 @@
+footer {
+  flex-shrink: 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  background-color: #283339 !important;
+  margin-top: 50px !important;
+  padding: 30px;
+
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+}

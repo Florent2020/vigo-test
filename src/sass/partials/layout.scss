@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: "Gotu", sans-serif !important;
+  background-color: #1f4f59;
+  color: #fff !important;
+}
+
+.css-1oqqzyl-MuiContainer-root {
+  max-width: 1140px !important;
+  margin: 0 auto;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.App {
+  flex: 1 0 auto;
+}
